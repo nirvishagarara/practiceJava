@@ -5,8 +5,6 @@ interface Animal {
 //   public void color();
      int age;
      String name;
-    
-
      abstract void printName();
 }
 
@@ -25,7 +23,6 @@ class Interface extends Animal {
   public static void main(String[] args) {
     Pig myPig = new Pig();  // Create a Pig object
     myPig.name = "parth";
-    
     myPig.age = 6;
     myPig.printName();
 
