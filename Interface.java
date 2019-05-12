@@ -15,7 +15,7 @@ class Pig implements Animal {
 
       void printName() {
         System.out.println("name is " +name);
-        // System.out.println("age is " +age);
+        System.out.println("age is " +age);
     }
 }
 
